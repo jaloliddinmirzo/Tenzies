@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: initial;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+img {
+  display: flex;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 13.1072px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  color: #4A4E74;
+  user-select: none;
+}
+
+.card {
+  display: block;
+  text-align: center;
+  width: 360px;
+  margin: 0 auto;
+  background: #0B2434;
+  padding: 30px 20px;
+}
+
+.wrap {
+  background: #F5F5F5;
+  border-radius: 10px;
+  padding: 34px;
+}
+
+.wrap h1 {
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #2B283A;
+}
+
+.text {
+  margin-bottom: 24px;
+}
+
+
+.grid {
+  display: grid;
+  gap: 17px;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  margin-bottom: 25px;
+}
+
+.dice {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+}
+
+.button {
+  width: 100px;
+  font-weight: 700;
+  font-size: 16.384px;
+  text-align: center;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  padding: 5px 21px;
+}
